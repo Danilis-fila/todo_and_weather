@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+feimport React, { useEffect, useMemo, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getInfoWeather, setCity } from "../slices/weatherSlice";
 import WeatherItem from "../weatherItem/weatherItem";
@@ -36,7 +36,7 @@ export default function WeatherForm() {
     return (
         <div className="weather-form">
             <div className="search">
-                <input className="search__input" type='search' placeholder="search..." value={searchValue}
+                <input className="search__input" type='search' placeholder="Введите название города..." value={searchValue}
                     onClick={() => setIsOpen(true)}
                     onChange={(e) => setSearchValue(e.target.value)}
                 ></input>
