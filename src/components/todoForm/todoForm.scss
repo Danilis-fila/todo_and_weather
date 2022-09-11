@@ -1,0 +1,50 @@
+.todo-form {
+    text-align: center;
+
+    &__items {
+        width: 540px;
+        max-height: 590px;
+        margin: 0 auto;
+        overflow: auto;
+    }
+}
+
+.menu {
+    margin-bottom: 30px;
+
+    &__button {
+        width: 80px;
+        height: 30px;
+        border-radius: 2px;
+        background-color: white;
+    }
+
+    &__input {
+        width: 250px;
+        height: 30px;
+        margin-right: 25px;
+        border-bottom: 1px solid black;
+        border-radius: 2px;
+        background-color: transparent;
+    }
+
+    &__option {
+        width: auto;
+    }
+
+    &__select {
+        width: auto;
+        height: 30px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+
+    .menu {
+        width: max-content;
+        margin-bottom: 30px;
+    }
+
+}
